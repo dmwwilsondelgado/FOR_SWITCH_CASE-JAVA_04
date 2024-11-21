@@ -32,6 +32,20 @@ public class Main {
             break;
             default://opcional
                 System.out.println("opcion no valida");
+
+        }
+        int opc=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la opcion"));
+        switch (opc) {
+            case 1:
+                for (cont = 1; cont <= 5; cont++) {
+                    System.out.println(cont * 10);
+                }
+                break;//rompa la opcion del case
+            case 2:
+                System.out.println("ingrese una opcion valida ...");
+                break;
+            default://opcional
+                System.out.println("opcion no valida");
         }
     }
 }
