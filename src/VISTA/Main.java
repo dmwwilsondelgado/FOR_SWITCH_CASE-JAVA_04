@@ -7,9 +7,14 @@ public class Main {
         System.out.println("Hello, World!");
         //Manejo de Sintaxix del For
         //  inicializacion condicion incremeneto
-        for (int cont=2;cont<=20;cont++){
-            float nota= JOptionPane.
-          System.out.println("terminamos el eleemento lista");
-        };
+        float promedio =0;
+        int cont;
+        for (int cont=1;cont<=20;cont++){
+            float nota=Float.parseFloat(JOptionPane.showInputDialog("ingrese la nota"));
+            promedio=promedio+nota;// variable acomulativo requiere de un elemento inicial
+          System.out.println("la sumatoria de notas"+promedio);
+        }
+        promedio =promedio/cont;
+        JOptionPane.showInputDialog(null,"Nota Promedio:"+ promedio);
     }
 }
