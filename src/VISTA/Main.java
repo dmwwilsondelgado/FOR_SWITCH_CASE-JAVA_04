@@ -34,6 +34,7 @@ public class Main {
                 System.out.println("opcion no valida");
 
         }
+        // De aqui Para Abajo Borrar 
         int opc=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la opcion"));
         switch (opc) {
             case 1:
