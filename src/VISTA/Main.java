@@ -16,5 +16,22 @@ public class Main {
         }
         promedio =promedio/cont;
         JOptionPane.showInputDialog(null,"Nota Promedio:"+ promedio);
+
+
+        //explicacion swicth
+        int opc=Integer.parseInt(JOptionPane.showInputDialog("Ingrese la opcion"));
+        switch (opc){
+            case 1;
+            for (int cont=1;cont<=5;cont++){
+                System.out.println(cont*10);
+            }
+            break //rompa la opcion del case
+            case 2;
+            System.out.println("ingrese una opcion valida ...");
+            break;
+            default://opcional
+                System.out.println("opcion no valida");
+
+        }
     }
 }
